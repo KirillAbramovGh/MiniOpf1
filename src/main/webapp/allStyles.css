@@ -1,0 +1,204 @@
+
+html{
+    background-color: #868383;
+    color: black;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0 0 24px;
+    text-align: justify;
+    text-justify: inter-word;
+    overflow: auto;
+    height: 95%;
+}
+body{
+    height: 100%;
+    margin: 0;
+}
+header{
+    padding: 5px;
+    margin: 0;
+}
+
+header > div{
+    margin: 0;
+}
+p{
+    margin: 1px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+input,select{
+    color: white;
+    border-radius: 3px;
+    background-color: inherit;
+    border-width: 1px;
+    border-color: black;
+    margin: 3px;
+}
+option{
+    color: #868383;
+}
+.wrapperGrid{
+    display: grid;
+    grid-row-gap: 10px;
+    grid-template-rows: 40fr 1fr;
+    height: 100%;
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+.wrapperGrid > div{
+    padding: 2ex;
+
+}
+.header{
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #555555;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    height: 40px;
+    padding-top: 13px;
+}
+
+.header > div{
+    margin: 0;
+    padding: 0;
+}
+.balance{
+    text-align: left;
+}
+.login{
+    text-align: right;
+}
+.footer {
+    border-radius: 9px;
+    text-align: center;
+    background-color: #1a8c68;
+    height: min-content;
+}
+.button{
+    color: white;
+    border-radius: 3px;
+    background-color: inherit;
+    border-width: 1px;
+    border-color: black;
+    margin: 3px;
+}
+.main{
+    border-radius: 9px;
+    background-color: #555555;
+    overflow: hidden;
+    max-height: 95%;
+}
+.card{
+    border-radius: 9px;
+    background-color:#1a8c68;
+    width: 170px;
+    height: 170px;
+    padding: 0;
+    margin: 0;
+}
+
+.cardred{
+    border-radius: 9px;
+    background-color: #d7942b;
+    width: 170px;
+    height: 170px;
+    padding: 0;
+    margin: 0;
+}
+.cardyellow{
+    border-radius: 9px;
+    background-color: #5c5959;
+    width: 170px;
+    height: 170px;
+    padding:0;
+    margin: 0;
+}
+
+
+.customerSettings > div {
+    display: grid;
+    grid-auto-columns: 1fr 1fr;
+    width: 100%;
+    align-self: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}.customerSettings {
+     display: grid;
+     grid-auto-columns: 1fr 1fr;
+     width: 50%;
+     align-self: center;
+     align-content: center;
+     align-items: center;
+     text-align: center;
+ }
+ .table{
+     width: auto;
+     height: auto;
+     overflow: hidden;
+     border: 0;
+     padding-right: 10px;
+     margin-right: 20px;
+     border-spacing: 0;
+ }
+.searchWrapper{
+
+}
+.whiteText{
+    color: white;
+    font-weight: bold;
+}
+
+.update_area{
+    display: grid;
+    grid-auto-columns: 1fr 1fr;
+}
+.export{
+    margin-left: 950px;
+}
+
+
+.employeeOrdersForm {
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+}
+
+.ordersForm {
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+}
+
+.info{
+    background-color: #20219b;
+    color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    border: #20219b;
+}
+
+.tableHeader{
+    background-color: #292929;
+}
+
+.employeeHeader {
+    margin: 0;
+}
+
+.tableWrapper {
+    width: 90%;
+    height: 100%;
+    overflow: auto;
+    padding-right: 20px;
+    margin-right: 20px;
+}
+
+.filterField{
+    width: 100px;
+}

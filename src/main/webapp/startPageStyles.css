@@ -1,0 +1,75 @@
+.wrapper {
+    padding: 0;
+    margin: 0 auto;
+    overflow: hidden;
+    height: 95%;
+    border-radius: 5px;
+}
+
+.tabs-nav {
+    display: flex;
+}
+
+.tabs-nav__item {
+    padding: 7px;
+    margin: 0 -5px -1px 0;
+    text-align: center;
+    color: #FFFFFF;
+    border: 1px solid #1d1c1d;
+    background: #1d1c1d;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.tabs-nav__item.is-active {
+    color: #FFFFFF;
+    border: 1px solid #343434;
+    background: #343434;
+    border-radius: 5px;
+}
+
+.tab {
+    display: none;
+    padding: 7px;
+    margin: 0 -5px -1px 0;
+    text-align: center;
+    color: #FFFFFF;
+    border: 1px solid #1d1c1d;
+    background: #1d1c1d;
+    cursor: pointer;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 70%;
+    border-radius: 5px;
+}
+
+.tab.is-active {
+    height: 450px;
+    overflow-y: auto;
+    border: 1px solid #343434;
+    background-color: #343434;
+    display: inline;
+    grid-gap: 1em;
+    overflow-x: hidden;
+    border-radius: 5px;
+
+}
+
+
+.tabs__content {
+    display: grid;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border-radius: 5px;
+    height: 100%;
+}
+
+.tabs {
+    overflow-y: auto;
+    overflow-x: hidden;
+    border-radius: 5px;
+
+}
+div.smalltext{
+    font-size: 1px;
+}
