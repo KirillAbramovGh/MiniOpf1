@@ -10,7 +10,7 @@
 <html>
 <head>
     <title>Import</title>
-    <link rel="stylesheet" href="/allStyles.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/allStyles.css">
 </head>
 <body>
 <%!

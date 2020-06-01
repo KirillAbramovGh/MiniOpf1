@@ -13,8 +13,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="/allStyles.css">
-    <link rel="stylesheet" href="/employeeTabs.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/allStyles.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/employeeTabs.css">
     <link rel="icon" href="/resources/checkbox.jpg">
     <title>MiniOPF</title>
     <%!
@@ -393,6 +393,6 @@
     </div>
 </footer>
 
-<script src="/main1.js"></script>
+<script src="${pageContext.request.contextPath}/main1.js"></script>
 </body>
 </html>

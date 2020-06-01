@@ -26,8 +26,8 @@
     </form>
 </h1>
 <meta charset="UTF-8">
-<link rel="stylesheet" href="/allStyles.css">
-<link rel="stylesheet" href="/tabs.css">
+<link rel="stylesheet" href="${pageContext.request.contextPath}/allStyles.css">
+<link rel="stylesheet" href="${pageContext.request.contextPath}/tabs.css">
 <h2>JSON Entity</h2>
 <pre>
     <%

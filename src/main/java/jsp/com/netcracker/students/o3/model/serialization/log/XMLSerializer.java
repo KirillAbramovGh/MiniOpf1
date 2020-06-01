@@ -35,10 +35,8 @@ public class XMLSerializer
 
             schemeValidation(fileName,"C:\\Users\\Kirill\\IdeaProjects\\MiniOPF\\logs\\shema.xsd");
         }
-        catch (Exception e)
-        {
-            e.printStackTrace();
-        }
+        catch (Exception ignore)
+        {}
     }
 
     public boolean schemeValidation(String pathXml, String pathXsd) throws IOException

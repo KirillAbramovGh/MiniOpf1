@@ -8,9 +8,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="/allStyles.css">
-    <link rel="stylesheet" href="/tabs.css">
-    <link rel="script" href="/main1.js">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/allStyles.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/tabs.css">
+    <link rel="script" href="${pageContext.request.contextPath}/main1.js">
     <title>MiniOPF</title>
     <%!
         @Inject
@@ -115,7 +115,7 @@
         </div>
     </footer>
 </div>
-<script src="/main1.js">
+<script src="${pageContext.request.contextPath}/main1.js">
 
 </script>
 </body>

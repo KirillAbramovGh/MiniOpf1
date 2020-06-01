@@ -6,8 +6,8 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="/allStyles.css">
-    <link rel="stylesheet" href="/startPageStyles.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/allStyles.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/startPageStyles.css">
     <meta charset="UTF-8">
     <title>MiniOPF</title>
 </head>
@@ -63,7 +63,7 @@
 
 <%=startJspHelper.showErrorMessage(session)%>
 
-<script src="/main1.js"></script>
+<script src="${pageContext.request.contextPath}/main1.js"></script>
 
 </body>
 
